@@ -32,11 +32,11 @@
 
 
         .corPrimaria {
-            background-color:rgb(0, 4, 7);
+            background-color:#000504;
         }
 
         .corSecundaria {
-            background-color:teal;
+            background-color:#05284b;
         }
 
         p{
@@ -67,7 +67,7 @@
         }
 
         .textobrancos{
-            color:white;
+            color:white !important;
 
 
         }
@@ -93,7 +93,8 @@
 <body>
 
     <nav class=" navbar navbar-expand-lg navbar-light  corSecundaria ">
-        <a class="navbar-brand textobrancos" href="#"> Desenvolvedor Jr.</a>
+
+        <h1 class=" textoBrancos navbar-brand textobrancos">  Desenvolvedor Jr.  </h1>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -103,13 +104,13 @@
             </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item"> 
-                        <a class="nav-link" href= "#projetos">Projetos</a>
+                        <a class="nav-link textobrancos " href= "#projetos">Projetos</a>
                         </li>
                         <li class="nav-item"> 
-                            <a class="nav-link" href= "#sobre-min" >Sobre Min</a>
+                            <a class="nav-link textobrancos " href= "#sobre-min" >Sobre Min</a>
                     </li>
                     <li class="nav-item"> 
-                        <a class=" nav-link " href= "#contatos" >Contatos</a>
+                        <a class=" nav-link textobrancos " href= "#contatos" >Contatos</a>
                     </li> 
                 </ul>                
 
@@ -123,16 +124,17 @@
         <div class="container" >
             <img class="foto-perfil" src="https://i.imgur.com/8U09sbb.jpg" alt="">
 
-            <h1 class="jumbotron-heading"> Ezequiel Gomes Lopes </h1>
-            <p class="lead text-muted">Software Developer Jr. Java </p>
+            <h1 class="jumbotron-heading textobrancos"> Ezequiel Gomes Lopes </h1>
+            <p class="lead text-muted ">{ Software Developer Jr. Java } </p>
             <a href="#contatos"  class= "btn btn-dark my-2" >Contato</a>
-                 
+
+            
             <p>
 
             </p>
 
-            <a href="https://www.linkedin.com/in/bruno-victor-a81a84186/"> <i class="icones fab fa-linkedin"></i> </a>
-            <a href="https://github.com/RabinoMachineLearning"> <i class="icones fab fa-github"></i> </a>
+            <a href="https://www.linkedin.com/in/ezequiel-lopes-8674b5190/"> <i class="icones fab fa-linkedin"></i> </a>
+            <a href="https://github.com/RabinoMachineLearning"> <i class="icones fab fa-github "></i> </a>
             <a href="https://www.facebook.com/New-Bot-101409024965751/"> <i class="icones fab fa-facebook"></i> </a>
 
 
@@ -174,23 +176,59 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+
+                        <video id="video" width="100%" height="225px" controls >
+                            <source src="https://i.imgur.com/HTnnbv0.mp4" type="video/mp4 "
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+/>
+                        </video>
+                       
+                       <div class="card-body">
+                           <p class="card-text">Esse projeto eu Desenvolvi usando a Tecnologia A, B, C e D .</p>
+                           <ul>
+                               <li>C# </li>
+                               <li>Arduino Uno</li>
+                               <li>Sensor TCS3200</li>
+                               <li>Servo Motores</li>
+                               
+                           </ul>
+                           <div class="d-flex justify-content-between align-items-center">
+                               <div class="btn-group">
+                                   <a href="https://github.com/RabinoMachineLearning/backand"> <button
+                                           type="button" class="btn btn-sm btn-outline-success"> Ver
+                                           Projeto</button></a>
+
+                                   <a
+                                       href="https://github.com/RabinoMachineLearning/backand/blob/master/Codigos">
+                                       <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                   </a>
+                               </div>
+
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
             </div>
         </div>
 
 
         <!--- Sobre min -->
         <section class="jumbotron text-center corSecundaria " id="sobre-min">
-            <div claass="container">
+            <div claass="container ">
                 <h2 class="titulosBrancos jumbotron-heading">Sobre min </h2>
-                <p class="lead textobrancos"> Olá Meu nome é Ezequiel, tenho 21 Anos.
+                <p class="lead textobrancos "> Olá Meu nome é Ezequiel, tenho 21 Anos.
                     Busco Aprimorar meus Conhecimento na Área de Tecnologia Computacional há mais de Dois Anos,
                     tendo
                     Desenvolvendo Prototipos no Durante o Aprendizado na minha Formação Técnica Em Mecatrônica
                     Indústrial e entre Outras Formações Complementares Como introdução a Indústria 4.0.
                     Sou Apaixonado por Desenvolvimentos Web, Mobile e Aplicações Machine Learning.
                     Participei de Hackathon no Porto Digital do Recife, Participei de um projeto de Imerssão em
-                    Desenvolvimento Java em um projeto Social Apoiado pela Accenture Technology, Atualmento Sou Monitor
-                    do mesmo Projeto.
+                    Desenvolvimento Java em um projeto Social Da Rede Cidadã - Programa Start Latam.
                 </p>
             </div>
 
@@ -205,7 +243,7 @@
                 <h3 class= "text-center textobrancos"> Telefone: (81) 98597-7740 (81) 98453-1949. </h3> 
                 <a href= "mailto:ezequielmecatronica2307@gmail.com "> 
                     <h3 style="padding-bottom: 70px; margin-bottom: -50px; "
-                     class="text-center textobrancos">👉  email: ezequielmecatronica2307@gmail.com 👈</h3> </a>
+                     class="text-center textobrancos ">👉  email: ezequielmecatronica2307@gmail.com 👈</h3> </a>
              
 
     </div> 
@@ -215,8 +253,7 @@
     <!---!Footer--->
 
     <footer class="text-center corPrimaria  " >
-     <i class="textoBranco"> Copyright 2020 RabinoMachineLearning 
-     </i>
+     <i class=" textobrancos"> Copyright 2020 RabinoMachineLearning </i>
     </footer>
 
 
